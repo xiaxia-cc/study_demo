@@ -1,0 +1,22 @@
+.qd{
+	width: 100px;
+	height: 100px;
+	background-color: lightskyblue;
+	float: left;
+	
+
+}
+
+.wd{
+	width: 100px;
+	height: 100px;
+	background-color: lightseagreen;
+	float: left;
+}
+
+.ed{
+	width: 100px;
+	height: 100px;
+	background-color: lightsalmon;
+	float: left;
+}

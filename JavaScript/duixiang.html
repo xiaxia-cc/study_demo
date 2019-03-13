@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <script>
+        function student(name, age) {
+            this.name = name;
+            this.age = age;
+
+            this.study = function () {
+                alert('studying');
+            };
+
+            this.eat = function () {
+                alert("eating")       ;
+            };
+        }
+
+
+        var student1 = student("xiawei",'23');
+        // var student2 = student("chenzhi","22");
+
+        var x = student1.name;
+        var y = student1.age;
+
+        document.write(x);
+        document.write(y);
+
+        student1.study();
+    </script>
+</body>
+</html>

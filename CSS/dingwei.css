@@ -1,0 +1,17 @@
+.position1{
+	width: 100px;
+	height: 100px;
+	background-color: red;
+	position: relative;
+	z-index: 2;
+}
+.position2{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+	position: relative;
+	left: 10px;
+	top: 10px;
+	z-index: 1;
+	
+}

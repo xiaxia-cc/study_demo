@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <input type="number" name="demoNumber" min="1" max="100" step="1">
+
+    <input type="email" name="email" placeholder="请输入注册邮箱">
+
+    <input type="url" placeholder="请输入网址" name="url">
+
+    <input type="tel" placeholder="输入电话" name="phone">
+
+    <input type="range" min="0" max="50" step="5" name="rangedemo" value="0">
+
+    <form oninput="output.value=parseInt(range.value)">
+        <input type="range" min="0" max="0" step="5" name="range" value="0">
+        <output name="output">0</output>
+    </form>
+
+    <input type="data" name="datadema">
+
+    <input type="color" name="colordemo">
+
+    <input type="text" autocomplete="on" name="demoAutoComplete" list="autoNames">
+    <datalist id="autoNames">
+        <option value="xiawei"></option>
+        <option value="gaofen"></option>
+        <option value="xiaoqiang"></option>
+    </datalist>
+</body>
+</html>

@@ -1,0 +1,11 @@
+#p1{
+	outline-color: #FF704D;
+	outline-style: groove;
+	outline-width: 10px;
+}
+
+#p2{
+	outline-color: green;
+	outline-style: dotted;
+	outline-width: 5px;
+}

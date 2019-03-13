@@ -1,0 +1,11 @@
+ul{
+	list-style: none;
+}
+a:link,a:visited{
+	text-decoration: none;
+	background-color: lightgray;
+	display: block;
+}
+a:active,a:hover{
+	background-color: cadetblue;
+}

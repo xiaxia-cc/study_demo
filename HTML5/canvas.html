@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <canvas id="demoCanvas" width="500" height="500"> <p>111</p></canvas>
+
+    <script type="text/javascript">
+        var canvasDom = document.getElementById("demoCanvas");
+        var context = canvasDom.getContext('2d')
+
+        context.strokeStyle = "red";
+        context.strokeRect(10, 10, 190, 100);
+
+        context.fillStyle = "blue"
+        context.fillRect(110, 110, 100, 100);
+
+        context.beginPath();
+        context.moveTo(20, 20);
+        context.lineTo(200, 200);
+        context.lineTo(400,20);
+        context.closePath();
+        context.lineWidth = 2.0;
+        context.strokeStyle = "#CC0000";
+        context.stroke();
+
+        context.moveTo(200,200);
+        //zi ti
+        context.font = "Bold 50px Arial";
+        //dui qi fang shi
+        context.textAlign = "left";
+        //tian cong yanse
+        context.fillStyle = "#005600"
+        //mei rong weizhi
+        context.fillText("laoma",10,50);
+        //kongxinzi weizhi
+        context.strokeText("www.baidu.com",10,100)
+
+
+    </script>
+</body>
+</html>
